@@ -86,15 +86,63 @@ public class CssFileEditor {
         }
     }
 
+    private static StringBuilder createSimpleCss() throws InStyleException {
+        StringBuilder cssBody = new StringBuilder();
+        StringBuilder cssP = new StringBuilder();
+        String defaultNode = Configuration.getInstance().getStyle().get("default").toString();
+        String headersNode = Configuration.getInstance().getStyle().get("headers").toString();
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.configure(JsonParser.Feature.ALLOW_UNQUOTED_FIELD_NAMES, true);
+
+        try {
+            Map<String, Object> defaultValues = objectMapper.readValue(defaultNode, new TypeReference<>() {});
+            for (Map.Entry<String, Object> entry : defaultValues.entrySet()) {
+                if (entry.getKey().startsWith("font")) {
+                    cssP.append(String.format("\t%s: %s;\n", entry.getKey(), entry.getValue()));
+                }
+                else {
+                    cssBody.append(String.format("\t%s: %s;\n", entry.getKey(), entry.getValue()));
+                }
+            }
+        } catch (JsonProcessingException e) {
+            throw new InStyleException("Error reading default from configuration: " + e);
+        }
+
+        StringBuilder css = new StringBuilder();
+        css.append("body {\n");
+        css.append(cssBody);
+        css.append("}\np {\n");
+        css.append(cssP);
+        css.append("}\n");
+
+        try {
+            Map<String, Map<String, Object>> headerValues = objectMapper.readValue(headersNode, new TypeReference<>() {});
+            for (Map.Entry<String, Map<String, Object>> entry : headerValues.entrySet()) {
+                css.append(entry.getKey());
+                css.append(" { \n");
+                for (Map.Entry<String, Object> val : entry.getValue().entrySet()) {
+                    css.append(String.format("\t%s: %s;\n", val.getKey(), val.getValue()));
+                }
+                css.append("}\n");
+            }
+        } catch (JsonProcessingException e) {
+            throw new InStyleException("Error reading headers from configuration: " + e);
+        }
+
+        return css;
+    }
+
     public static void createCssFile() throws InStyleException {
-        StringBuilder variablesCss = createVariablesCss();
-        StringBuilder headersCss = createHeadersCss();
+        //StringBuilder variablesCss = createVariablesCss();
+        //StringBuilder headersCss = createHeadersCss();
 
-        String result = Templates.getTemplateCss().replaceAll("\\{variables}", String.valueOf(variablesCss)) + headersCss;
+        //String result = Templates.getTemplateCss().replaceAll("\\{variables}", String.valueOf(variablesCss)) + headersCss;
 
+        StringBuilder result = createSimpleCss();
         Path cssPath = createFile();
         try {
-            Files.write(cssPath, result.getBytes());
+            Files.write(cssPath, result.toString().getBytes());
         } catch (IOException e) {
             throw new InStyleException("Error writing to file: " + e);
         }
