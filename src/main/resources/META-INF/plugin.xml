@@ -1,0 +1,83 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>mse.instyle</id>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>Instyle</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="yourcompany.com" url="https://www.yourcompany.com">mse</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description>
+        InStyle plugin helps to create official documents without having to additionally worry about style guidelines and required doc sections
+    </description>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+
+    <resource-bundle>InStyleBundle</resource-bundle>
+
+    <!-- Extension points defined by the plugin.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="mse">
+    </extensions>
+
+    <actions>
+        <group
+                id="mse.instyle.InStyle"
+                text="InStyle"
+                description="SomeTestGroup"
+                popup="true"
+                compact="false"
+                searchable="true"
+                icon="/icons/instyle.svg">
+                <add-to-group
+                    group-id="ToolsMenu"
+                    anchor="first"/>
+        </group>
+        <action
+                id="mse.instyle.PopupConfigLoader"
+                class="mse.instyle.PopupConfigLoader"
+                text="Action Basics Plugin: Popup Config Loader"
+                description="JSON Configuration loader"
+                icon="/icons/upload.svg">
+            <override-text place="MainMenu" text="Load Configuration"/>
+            <mouse-shortcut
+                    keymap="$default"
+                    keystroke="control button3 doubleClick"/>
+            <add-to-group group-id="mse.instyle.InStyle"/>
+        </action>
+        <action
+                id="mse.instyle.structurevalidator.PopupStructureNotifications"
+                class="mse.instyle.structurevalidator.PopupStructureNotifications"
+                text="Action Basics Plugin: Work With Structure"
+                description="Work with document structure"
+                icon="/icons/check.svg">
+            <override-text place="MainMenu" text="Check Structure"/>
+            <mouse-shortcut
+                    keymap="$default"
+                    keystroke="control button3 doubleClick"/>
+            <add-to-group group-id="mse.instyle.InStyle"/>
+        </action>
+        <action
+                id="mse.instyle.PopupGeneratePdf"
+                class="mse.instyle.generatepdf.PopupGeneratePdf"
+                text="Action Basics Plugin: Popup Generate Pdf"
+                description="Generate Pdf"
+                icon="/icons/pdf.svg">
+            <override-text place="MainMenu" text="Generate Pdf"/>
+            <mouse-shortcut
+                    keymap="$default"
+                    keystroke="control button3 doubleClick"/>
+            <add-to-group group-id="mse.instyle.InStyle"/>
+        </action>
+    </actions>
+
+</idea-plugin>

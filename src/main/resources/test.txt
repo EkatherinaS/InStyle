@@ -1,0 +1,19 @@
+{
+  "document_settings": {
+    "general": {
+      "line_spacing": 1.5,
+      "font_color": "black",
+      "font_size": 12,
+      "font_type": "Times New Roman",
+      "margins": {
+        "left": 30,
+        "right": 15,
+        "top": 20,
+        "bottom": 20
+      },
+      "paragraph_indent": 1.25,
+      "page_numbering_position": "center_bottom",
+      "alignment": "justify"
+    }
+  }
+}

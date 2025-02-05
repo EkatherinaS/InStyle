@@ -1,0 +1,13 @@
+h{num} {
+    text-align: var(--h{num}-text-align, --default-text-align);
+    text-indent: var(--h{num}-text-indent, --default-text-indent);
+    text-transform: var(--h{num}-text-transform, --default-text-transform);
+    line-height: var(--h{num}-line-height, --default-line-height);
+    default-color: var(--h{num}-default-color, --default-default-color);
+    .title__content {
+        font-family: var(--h{num}-font-family, --default-font-family);
+        font-weight: var(--h{num}-font-weight, --default-font-weight);
+        font-size: var(--h{num}-font-size, --default-font-size);
+    }
+    /*start_new_page: true;*/
+}

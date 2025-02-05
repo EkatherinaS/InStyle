@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf5527db-9cd0-411d-a84d-7bb58acf983b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.run/Run IDE with Plugin.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/FileExplorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/InStyleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/PopupConfigLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/ValidationStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/XmlFileEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/csseditor/CssFileEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/csseditor/Templates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/generatepdf/PopupGeneratePdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/structurevalidator/DialogValidationResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/structurevalidator/PopupStructureNotifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/structurevalidator/StructureValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/InStyleBundle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css-header-template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css-template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/instyle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/pdf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/temp/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/temp/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/temp/download (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/temp/quill-writer-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/temp/scroll-document-story_16298195.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/temp/scroll-document-story_16298805.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/temp/writer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation>
+            <after_sync>
+              <task name="setupDependencies" />
+            </after_sync>
+          </activation>
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mse.instyle" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mse.instyle" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Script" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KotlinScriptingSettings" supportWarning="false" />
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2qJDWUhvSBx89DqOwGItzC33v1T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.Build instyle.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Run Plugin.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.instyle [:MarkdownToPdfConverter.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.instyle [:TODODO.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.instyle [setupDependencies].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ekaterina/IdeaProjects/instyle/src/main/resources&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ekaterina\IdeaProjects\instyle\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ekaterina\IdeaProjects\instyle\src\main\resources" />
+      <recent name="C:\Users\Ekaterina\IdeaProjects\instyle\src" />
+      <recent name="C:\Users\Ekaterina\IdeaProjects\instyle\src\main\resources\icons" />
+      <recent name="C:\Users\Ekaterina\IdeaProjects\instyle\src\main\kotlin" />
+      <recent name="C:\Users\Ekaterina\IdeaProjects\instyle\src\main" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="mse.instyle.toolWindow" />
+      <recent name="mse.instyle.services" />
+      <recent name="mse.instyle.listeners" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mse.instyle.generatepdf" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Run Plugin">
+    <configuration name="MarkdownToPdfConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mse.instyle.generatepdf.MarkdownToPdfConverter" />
+      <module name="mse.instyle.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mse.instyle.generatepdf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TODODO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mse.instyle.TODODO" />
+      <module name="mse.instyle.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mse.instyle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TODODO" />
+        <item itemvalue="Application.MarkdownToPdfConverter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf5527db-9cd0-411d-a84d-7bb58acf983b" name="Changes" comment="" />
+      <created>1734371817682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734371817682</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
