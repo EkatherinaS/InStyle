@@ -3,7 +3,6 @@ package mse.instyle.structurevalidator;
 import com.intellij.openapi.ui.DialogWrapper;
 import com.intellij.ui.JBColor;
 import groovyjarjarantlr4.v4.runtime.misc.Nullable;
-import mse.instyle.ValidationStatus;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;

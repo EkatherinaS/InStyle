@@ -6,10 +6,8 @@ import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.Messages;
 import mse.instyle.*;
-import mse.instyle.csseditor.CssFileEditor;
 import org.jetbrains.annotations.NotNull;
 
-import java.io.IOException;
 import java.util.ArrayList;
 
 public class PopupStructureNotifications extends AnAction {
