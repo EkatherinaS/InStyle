@@ -1,0 +1,158 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="mse.instyle:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/mse_instyle_jar</output-path>
+    <root id="archive" name="mse.instyle.jar">
+      <element id="module-output" name="mse.instyle.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.9.21/f5ff679bd666f7f2376209fff998b775b7b701c7/kotlin-script-runtime-1.9.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/bouncy-castle.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/app.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/external-system-rt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/externalProcess-rt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/forms_rt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/groovy.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/jps-model.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/kotlinx-coroutines-slf4j-1.8.0-intellij.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/lib.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/nio-fs.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/opentelemetry.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/platform-loader.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/product.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/protobuf.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/rd.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/stats.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/trove.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/util.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/util-8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/lib/util_rt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.commonmark/commonmark/0.24.0/59af01016ece382b55b4acb6a5190b08879c637c/commonmark-0.24.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/btf-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/autolink-0.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/byte-buddy-1.14.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/commons-beanutils-1.9.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/commons-collections-3.2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/commons-digester-2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/commons-lang3-3.12.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/commons-text-1.10.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/commons-validator-1.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-all-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-abbreviation-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-admonition-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-anchorlink-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-aside-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-attributes-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-autolink-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-definition-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-emoji-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-enumerated-reference-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-escaped-character-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-footnotes-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-gfm-issues-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-gfm-strikethrough-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-gfm-tasklist-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-gfm-users-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-gitlab-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-ins-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-jekyll-front-matter-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-jekyll-tag-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-macros-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-media-tags-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-resizable-image-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-superscript-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-tables-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-toc-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-typographic-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-wikilink-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-xwiki-macros-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-yaml-front-matter-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-ext-youtube-embedded-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-html2md-converter-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-jira-converter-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-pdf-converter-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-profile-pegdown-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-util-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-util-ast-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-util-builder-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-util-collection-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-util-data-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-util-dependency-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-util-format-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-util-html-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-util-misc-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-util-options-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-util-sequence-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-util-visitor-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/flexmark-youtrack-converter-0.64.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/fontbox-2.0.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/graphics2d-0.32.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/hamcrest-core-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/icu4j-73.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/isoparser-1.9.41.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/jackson-annotations-2.17.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/jackson-core-2.17.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/jackson-coreutils-2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/jackson-coreutils-equivalence-1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/jackson-databind-2.17.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/jackson-dataformat-xml-2.17.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/jackson-dataformat-yaml-2.17.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/jackson-datatype-jsr310-2.17.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/jackson-module-kotlin-2.17.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/jakarta.activation-api-1.2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/jakarta.validation-api-2.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/jakarta.xml.bind-api-2.3.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/joda-time-2.10.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/jopt-simple-5.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/json-patch-1.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/json-schema-core-1.2.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/json-schema-validator-2.2.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/jsoup-1.18.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/jsr305-3.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/junit-4.13.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/kotlinx-html-jvm-0.10.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/libphonenumber-8.11.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/model-common-jvm-0.3.114.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/model-text-jvm-0.3.114.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/msg-simple-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/nebula.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/nlp-common-jvm-0.3.114.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/nlp-stemmer-jvm-0.3.114.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/openhtmltopdf-core-1.0.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/openhtmltopdf-jsoup-dom-converter-1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/openhtmltopdf-pdfbox-1.0.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/openhtmltopdf-rtl-support-1.0.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/opennlp-tools-1.9.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/pdfbox-2.0.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/plantuml-mit-1.2023.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/shortcuttery-1.0.43.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/stax2-api-4.2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/swagger-annotations-1.6.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/swagger-annotations-2.2.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/swagger-compat-spec-parser-1.0.67.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/swagger-core-1.6.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/swagger-core-2.2.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/swagger-models-1.6.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/swagger-models-2.2.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/swagger-parser-1.0.67.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/swagger-parser-2.1.16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/swagger-parser-core-2.1.16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/swagger-parser-safe-url-resolver-2.1.16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/swagger-parser-v2-converter-2.1.16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/swagger-parser-v3-2.1.16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/uri-template-0.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/utils-common-jvm-0.3.114.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/validation-api-1.1.0.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/woodstox-core-6.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/writerside-2024.11.243.21565.432.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/writerside-2024.11.243.21565.432-searchableOptions.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/writerside/lib/xmpbox-2.0.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/fontbox/3.0.4/c962ddd72b28fe781ad068bd5bd2b268ad56119e/fontbox-3.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.3.4/b9fc14968d63a8b8a8a2c1885fe3e90564239708/commons-logging-1.3.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox-io/3.0.4/3bb2ac79d25c65fb7dd01d9edde46f377f93cd0c/pdfbox-io-3.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/vcs-git/lib/vcs-git.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/vcs-git/lib/git4idea-rt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/24.0.1/13c5c75c4206580aa4d683bffee658caae6c9f43/annotations-24.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files/JetBrains/Writerside 243.21565.432/plugins/markdown/lib/markdown.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/3.0.4/2faa45ecc79c272044f0f4dc48a7222645fcd468/pdfbox-3.0.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

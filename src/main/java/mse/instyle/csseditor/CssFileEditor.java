@@ -7,6 +7,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import mse.instyle.Configuration;
 import mse.instyle.FileExplorer;
 import mse.instyle.InStyleException;
+import mse.instyle.Templates;
 
 import java.io.File;
 import java.io.IOException;
@@ -113,6 +114,12 @@ public class CssFileEditor {
         css.append("body {\n");
         css.append(cssBody);
         css.append("}\np {\n");
+        css.append(cssP);
+        css.append("}\nol {\n");
+        css.append(cssP);
+        css.append("}\nul {\n");
+        css.append(cssP);
+        css.append("}\ndiv {\n");
         css.append(cssP);
         css.append("}\n");
 

@@ -3,7 +3,6 @@ package mse.instyle.structurevalidator;
 import com.intellij.openapi.ui.DialogWrapper;
 import com.intellij.ui.JBColor;
 import groovyjarjarantlr4.v4.runtime.misc.Nullable;
-import mse.instyle.ValidationStatus;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
@@ -24,17 +23,17 @@ public class DialogValidationResult extends DialogWrapper {
             switch (vs.code()) {
                 case 1: {
                     label = new JLabel("Warning: " + vs.message());
-                    label.setForeground(JBColor.yellow);
+                    label.setForeground(JBColor.yellow.darker());
                     break;
                 }
                 case 2: {
                     label = new JLabel("Error: " + vs.message());
-                    label.setForeground(JBColor.RED);
+                    label.setForeground(JBColor.RED.darker());
                     break;
                 }
                 default: {
                     label = new JLabel("Success: " + vs.message());
-                    label.setForeground(JBColor.green);
+                    label.setForeground(JBColor.green.darker());
                     break;
                 }
             }
