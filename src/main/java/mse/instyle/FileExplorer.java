@@ -51,7 +51,9 @@ public class FileExplorer {
         ArrayList<String> firstHeaders = new ArrayList<>();
 
         for (File file : files) {
-            firstHeaders.add(headersByFiles.get(file.getName()).get(0));
+            if (headersByFiles.get(file.getName()) != null) {
+                firstHeaders.add(headersByFiles.get(file.getName()).get(0));
+            }
         }
 
         return firstHeaders;
@@ -63,7 +65,9 @@ public class FileExplorer {
         ArrayList<String> allHeaders = new ArrayList<>();
 
         for (File file : files) {
-            allHeaders.addAll(headersByFiles.get(file.getName()));
+            if (headersByFiles.get(file.getName()) != null) {
+                allHeaders.addAll(headersByFiles.get(file.getName()));
+            }
         }
 
         return allHeaders;

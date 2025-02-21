@@ -16,7 +16,7 @@ repositories {
 intellij {
     type.set("IC") // Use IntelliJ IDEA Community or Ultimate as the base
     plugins.set(listOf("writerside")) // Add Writerside as a bundled plugin
-    localPath.set("C:/Program Files/JetBrains/Writerside 243.21565.432") // Path to your Writerside installation
+    localPath.set("C:/Program Files/JetBrains/Writerside 243.22562.371") // Path to your Writerside installation
 }
 
 tasks {
@@ -40,14 +40,17 @@ tasks {
         password.set(System.getenv("PRIVATE_KEY_PASSWORD"))
     }
 
+    buildSearchableOptions {
+        enabled = false
+    }
+
     publishPlugin {
         token.set(System.getenv("PUBLISH_TOKEN"))
     }
 }
+
 dependencies {
     implementation(kotlin("script-runtime"))
     implementation("org.apache.pdfbox:pdfbox:3.0.4")
     implementation("org.commonmark:commonmark:0.24.0")
-
-
 }

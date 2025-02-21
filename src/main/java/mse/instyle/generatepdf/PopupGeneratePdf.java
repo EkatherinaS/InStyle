@@ -1,5 +1,6 @@
 package mse.instyle.generatepdf;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.intellij.codeInsight.daemon.impl.DaemonTooltipRendererProvider;
 import com.intellij.openapi.actionSystem.ActionUpdateThread;
 import com.intellij.openapi.actionSystem.AnAction;
@@ -23,33 +24,7 @@ public class PopupGeneratePdf extends AnAction {
 
     private Project project;
     private String fullHtml = "<html><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><head>%s</head><body>%s</body></html>";
-    private String contentsCss = """
-                    .row {
-                        display: -webkit-box;
-                        -webkit-box-pack: justify;
-                        width: 100%;
-                    }
-                    .left {
-                        -webkit-box-flex: 0;
-                        white-space: nowrap;
-                    }
-                    .separator {
-                        -webkit-box-flex: 1;
-                        position: relative;
-                        overflow: hidden;
-                    }
-                    .separator::after {
-                        content: "..........................................................................................................................................................................................................................................................................................................................................................................................................";
-                        white-space: nowrap;
-                        display: block;
-                        overflow: hidden;
-                        width: 100%;
-                    }
-                    .right {
-                        -webkit-box-flex: 0;
-                        white-space: nowrap;
-                    }
-            """;
+
 
     @Override
     public void update(AnActionEvent e) {
@@ -75,8 +50,24 @@ public class PopupGeneratePdf extends AnAction {
         String tempDir = FileExplorer.getInstance().getTempDirectory();
         File outputPdf = new File(tempDir + "/" + name + ".pdf");
 
+        Configuration conf = Configuration.getInstance();
+        JsonNode styleNode = conf.getStyle();
+
+        String left = "20mm";
+        String right = "20mm";
+        String top = "30mm";
+        String bottom = "15mm";
+
+        if (styleNode != null && styleNode.get("default") != null) {
+            left = styleNode.get("default").get("margin-left").asText();
+            right = styleNode.get("default").get("margin-right").asText();
+            top = styleNode.get("default").get("margin-top").asText();
+            bottom = styleNode.get("default").get("margin-bottom").asText();
+        }
+
         //Run wkhtmltopdf
-        ProcessBuilder pb = new ProcessBuilder("wkhtmltopdf",
+        ProcessBuilder pb = new ProcessBuilder("wkhtmltopdf", "--disable-smart-shrinking", "--dpi", "300",
+                "-L", left, "-R", right, "-T", top, "-B", bottom,
                 htmlPath, outputPdf.getPath());
         pb.redirectErrorStream(true);
         Process process = pb.start();
@@ -129,7 +120,8 @@ public class PopupGeneratePdf extends AnAction {
 
         try {
             String htmlContents = ContentsCreator.createHtmlListOfContents();
-            File htmlFile = createHtmlFile("contents", htmlContents, "<style>" + contentsCss + "</style>");
+            String contentsCss = ContentsCreator.getContentsCss();
+            File htmlFile = createHtmlFile("contents", htmlContents, contentsCss);
             File pdfFile = generatePdfFromHtml("contents", htmlFile.getPath());
             ut.addSource(pdfFile.getPath());
         } catch (FileNotFoundException e) {

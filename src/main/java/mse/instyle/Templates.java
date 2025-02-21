@@ -1,4 +1,4 @@
-package mse.instyle.csseditor;
+package mse.instyle;
 
 public class Templates {
     private static final String templateCss = """
@@ -36,10 +36,6 @@ public class Templates {
                 }
             }
             .article {
-                margin-top: var(--default-margin-top);
-                margin-bottom: var(--default-margin-bottom);
-                margin-left: var(--default-margin-left);
-                margin-right: var(--default-margin-right);
                 text-align: var(--default-text-align);
             }
                         
@@ -90,11 +86,43 @@ public class Templates {
             }
             """;
 
+    private static final String contentsCss = """
+                    .row {
+                        display: -webkit-box;
+                        -webkit-box-pack: justify;
+                        width: 100%;
+                    }
+                    .left {
+                        -webkit-box-flex: 0;
+                        white-space: nowrap;
+                    }
+                    .separator {
+                        -webkit-box-flex: 1;
+                        position: relative;
+                        overflow: hidden;
+                    }
+                    .separator::after {
+                        content: "{separator}";
+                        white-space: nowrap;
+                        display: block;
+                        overflow: hidden;
+                        width: 100%;
+                    }
+                    .right {
+                        -webkit-box-flex: 0;
+                        white-space: nowrap;
+                    }
+            """;
+
     public static String getTemplateCss() {
         return templateCss;
     }
 
     public static String getTemplateHeaderCss() {
         return templateHeaderCss;
+    }
+
+    public static String getContentsCss() {
+        return contentsCss;
     }
 }

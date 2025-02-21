@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import mse.instyle.Configuration;
 import mse.instyle.FileExplorer;
 import mse.instyle.InStyleException;
+import mse.instyle.Templates;
 import org.apache.pdfbox.Loader;
 import org.apache.pdfbox.pdmodel.PDDocument;
 
@@ -11,6 +12,8 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Dictionary;
 
@@ -53,6 +56,9 @@ public class ContentsCreator {
                          """;
 
         for (File file : files) {
+            if (filesWithHeaders.get(file.getName().replace("pdf", "md")) == null) {
+                continue;
+            }
             String header = filesWithHeaders.get(file.getName().replace("pdf", "md")).get(0);
             if (toInclude.contains(header)) {
                 html.append(String.format(oneLine, header, currentPage));
@@ -62,5 +68,19 @@ public class ContentsCreator {
         }
 
         return html.toString();
+    }
+
+    public static String getContentsCss() throws InStyleException, IOException {
+        Configuration conf = Configuration.getInstance();
+        String cssPath = FileExplorer.getInstance().getCssPath() + "/" + FileExplorer.getInstance().getCssFilename();
+        String cssText = new String(Files.readAllBytes(Path.of(cssPath)));
+
+        JsonNode styleNode = conf.getStyle();
+        if (styleNode == null) {
+            throw new InStyleException("Configuration not loaded");
+        }
+        String separator = styleNode.get("default").get("contents-separator").asText();
+        String contentsCss = Templates.getContentsCss().replace("{separator}", separator.repeat(50));
+        return "<style>\n" + cssText + "\n" + contentsCss + "\n</style>";
     }
 }

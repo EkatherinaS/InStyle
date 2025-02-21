@@ -1,49 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mse.instyle:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf5527db-9cd0-411d-a84d-7bb58acf983b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/Run IDE with Plugin.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/FileExplorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/InStyleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/PopupConfigLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/ValidationStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/XmlFileEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/csseditor/CssFileEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/csseditor/Templates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/generatepdf/PopupGeneratePdf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/structurevalidator/DialogValidationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/structurevalidator/PopupStructureNotifications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/structurevalidator/StructureValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/InStyleBundle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css-header-template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css-template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/instyle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/pdf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/temp/1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/temp/2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/temp/download (1).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/temp/quill-writer-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/temp/scroll-document-story_16298195.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/temp/scroll-document-story_16298805.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/temp/writer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/upload.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/Run IDE with Plugin.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/Run IDE with Plugin.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mse/instyle/FileExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/FileExplorer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mse/instyle/csseditor/CssFileEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/csseditor/CssFileEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mse/instyle/csseditor/Templates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/Templates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mse/instyle/generatepdf/ContentsCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/generatepdf/ContentsCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mse/instyle/generatepdf/PopupGeneratePdf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/generatepdf/PopupGeneratePdf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mse/instyle/structurevalidator/DialogValidationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mse/instyle/structurevalidator/DialogValidationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/check.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/instyle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/instyle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/pdf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/pdf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/upload.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/upload.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +56,13 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="mse.instyle" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mse.instyle" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -94,6 +81,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jrt://$USER_HOME$/.jdks/openjdk-19.0.2!/jdk.jshell/jdk/internal/jshell/tool/resources/version.properties" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KotlinScriptingSettings" supportWarning="false" />
   <component name="LogFilters">
@@ -121,12 +111,21 @@
     &quot;Gradle.Run Plugin.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.instyle [:MarkdownToPdfConverter.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.instyle [:TODODO.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.instyle [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.instyle [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.instyle [jar].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.instyle [setupDependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.instyle [signPlugin].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;list-of-contents&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ekaterina/IdeaProjects/instyle/src/main/resources&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ekaterina/IdeaProjects/instyle&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -149,9 +148,9 @@
       <recent name="mse.instyle.generatepdf" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Run Plugin">
-    <configuration name="MarkdownToPdfConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mse.instyle.generatepdf.MarkdownToPdfConverter" />
+  <component name="RunManager" selected="Gradle.instyle [build]">
+    <configuration name="TODODO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mse.instyle.TODODO" />
       <module name="mse.instyle.main" />
       <extension name="coverage">
         <pattern>
@@ -163,32 +162,103 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TODODO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mse.instyle.TODODO" />
-      <module name="mse.instyle.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mse.instyle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="instyle [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="instyle [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="instyle [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="instyle [signPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--scan" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signPlugin" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.instyle [build]" />
+        <item itemvalue="Gradle.instyle [clean]" />
+        <item itemvalue="Gradle.instyle [jar]" />
+        <item itemvalue="Gradle.instyle [signPlugin]" />
         <item itemvalue="Application.TODODO" />
-        <item itemvalue="Application.MarkdownToPdfConverter" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

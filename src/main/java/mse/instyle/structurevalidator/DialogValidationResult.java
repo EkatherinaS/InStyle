@@ -23,17 +23,17 @@ public class DialogValidationResult extends DialogWrapper {
             switch (vs.code()) {
                 case 1: {
                     label = new JLabel("Warning: " + vs.message());
-                    label.setForeground(JBColor.yellow);
+                    label.setForeground(JBColor.yellow.darker());
                     break;
                 }
                 case 2: {
                     label = new JLabel("Error: " + vs.message());
-                    label.setForeground(JBColor.RED);
+                    label.setForeground(JBColor.RED.darker());
                     break;
                 }
                 default: {
                     label = new JLabel("Success: " + vs.message());
-                    label.setForeground(JBColor.green);
+                    label.setForeground(JBColor.green.darker());
                     break;
                 }
             }
